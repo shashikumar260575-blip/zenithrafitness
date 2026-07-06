@@ -79,6 +79,35 @@ export const Home: React.FC<HomeProps> = ({ onNavigate, onOpenBottomSheet }) => 
         </div>
       </section>
 
+      {/* Free Fitness Consultation Section */}
+      <section className="py-16 bg-slate-50 border-b border-slate-100">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Free Fitness Consultation</h2>
+          <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto mb-8 leading-relaxed">
+            Start your fitness journey with a FREE one-on-one consultation. We'll discuss your goals, assess your current fitness level, and recommend a personalized plan with no obligation.
+          </p>
+          
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 md:gap-8 mb-10 max-w-2xl mx-auto bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
+            <span className="flex items-center gap-2 font-medium text-slate-800"><span className="text-emerald-500 font-bold">✓</span> 100% Free Consultation</span>
+            <span className="flex items-center gap-2 font-medium text-slate-800"><span className="text-emerald-500 font-bold">✓</span> Personalized Fitness Guidance</span>
+          </div>
+
+          <div className="flex flex-col items-center">
+            <a 
+              href="https://wa.me/919346560575?text=Hi%2C%20I'm%20interested%20in%20booking%20a%20Free%20Fitness%20Consultation%20with%20Zenithra%20Fitness." 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-black font-bold rounded-lg text-lg transition-all duration-300 shadow-[0_0_20px_rgba(16,185,129,0.3)] hover:shadow-[0_0_30px_rgba(16,185,129,0.5)] hover:-translate-y-0.5"
+            >
+              <MessageCircle className="h-5 w-5" /> Book Your Free Consultation
+            </a>
+            <p className="mt-4 text-sm text-slate-500 max-w-md leading-relaxed">
+              Our coaching team includes Bachelor's-qualified and certified fitness professionals.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Philosophy Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
